@@ -2,7 +2,9 @@
 body{
 margin: 0;
 padding: 0;
-font-family: 'DM Sans', sans-serif;}
+font-family: 'DM Sans', sans-serif;
+background: #f8f6f6;
+}
 
 header{
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
@@ -108,4 +110,55 @@ text-align: center;
     line-height: 18px;
 
 
+}
+
+.main_content_monedas{
+    
+
+    display: grid;
+    grid-template-columns: repeat(2, 101px);
+    grid-template-rows: repeat(5, 39px);
+    grid-column-gap: 5px;
+    grid-row-gap: 1px;
+        margin: 0 10px 0 10px;
+        margin: 10px 40px 0 100px;
+        
+}
+
+.main_content_monedas div{
+    color: #B5B0AC;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 500;
+
+}
+.main_content_monedas div:first-child{
+    color: #FF9536;
+    font-size: 18px;
+    font-weight: bold;
+    background: #f8f6f6;
+
+}
+
+#main_monedas_titulo{
+    background: #f8f6f6;
+}
+
+.main_monedas_bottom{
+    width: 250px;
+    height: 20px;
+text-align: center;
+color: #282623;
+font-weight: 700;
+background: #FFE9D4;
+border-radius: 8px;
+font-size: 16px;
+margin:10px auto ;
+
+}
+span{
+    font-weight: 500;
+
+}
+.main_monedas_bottom p {
 }
