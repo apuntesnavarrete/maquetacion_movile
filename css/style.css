@@ -83,3 +83,29 @@ font-size: 14px;
 line-height: 18px;
 text-align: center;
 }
+
+/* inicia main */
+
+.main_imgbitcoin{
+    padding: 40px 100px 0px;
+}
+
+.main_titulo1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.main_subtitulo{
+    color: #757575;
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+
+
+}
