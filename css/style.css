@@ -160,5 +160,55 @@ span{
     font-weight: 500;
 
 }
-.main_monedas_bottom p {
+/* main black */
+
+.main_black{
+    background-color: #201E1C;
+    height: 950px;
+    width: 100%;
+    margin-top: 60px
+    ;
+}
+
+.black_titulos{
+    padding-top: 30px;
+}
+.main_black .header_tercer_titulo{
+    color: #808080;
+
+}
+
+.main_black_cards{
+margin-top: 30px;
+}
+.black_cards{
+    width: 288px;
+    height: 130px;
+    background-color: #282623;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+border-radius: 4px;
+margin: 15px auto;
+padding: 20px
+}
+.black_cards div{
+    margin-bottom: 7px;
+}
+.black_cards_titulo{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.black_cards_subtitulo{
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+color: #808080;
+
 }
